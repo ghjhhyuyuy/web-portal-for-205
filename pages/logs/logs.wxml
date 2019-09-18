@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view class='box'>
+  <form bindsubmit='searchBox'>
+      <input type='text' class='userBox' name='username'></input>
+      <input type='text' class='pwdBox' name='pwd'></input>
+      <button class='login' form-type='submit'>登录</button>
+  </form>
+  <text>输入的内容:{{first}}</text>
+  <text>输入的内容2:{{second}}</text>
+</view>

@@ -1,0 +1,25 @@
+<view class='all'>
+  <view>
+    <input class='find' placeholder='查找关键字' bindinput="sersh"></input>
+    <button class='btn' bindtap="find">
+      <text class='find-font'>搜索</text>
+    </button>
+  </view>
+  <view class='all1' wx:for="{{res}}" wx:for-index="index" wx:for-item="item">
+    <view class="member">
+      <view class="pic">
+        <image src='{{item.dizhi}}'></image>
+      </view>
+      <view class='movie-info'>
+        <view class='base-info'>
+          <navigator url=''>
+            <text>{{item.text}}</text>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='lastimg'>
+    <image class="botton" src='../../img/6.png'></image>
+  </view>
+</view>

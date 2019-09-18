@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/dynamic/dynamic",
+    "pages/message/message"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "color":"#fff",
+
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "7舍205门户网站",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#888",
+    "selectedColor":"#09bb07",
+    "backgroundColor":"#000",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"简介",
+      "iconPath":"img/1.png",
+      "selectedIconPath":"img/4.png"
+    },
+    {
+      "pagePath": "pages/dynamic/dynamic",
+      "text": "动态",
+      "iconPath": "img/2.png",
+      "selectedIconPath": "img/4.png"
+    }, 
+    {
+      "pagePath": "pages/message/message",
+      "text": "留言",
+      "iconPath": "img/3.png",
+      "selectedIconPath": "img/4.png"
+    }]
+  }
+  
+}

@@ -1,0 +1,90 @@
+<!--index.wxml-->
+<view class='content'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="member">
+    <view class="pic">
+      <image src='../../img/tan.jpg'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>姓名：谭雪峰\n年龄：21\n简介：学霸室长，你从来不知道他戴着耳机是在和你说话还是和他女朋友\n</text>
+      </view>
+    </view>
+  </view>
+  <view class="member">
+    <view class="pic">
+      <image src='../../img/wanglanling.jpg'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>姓名：王栏淋\n年龄：20\n简介：IT宅男，做起事来认认真真，办事绝对放心\n</text>
+      </view>
+    </view>
+  </view>
+  <view class="member">
+    <view class="pic">
+      <image src='../../img/tian.jpg'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>姓名：田宇航\n年龄：19\n简介：院排球队长，排球和游戏都打得好，不过其实他一直想做生意\n</text>
+      </view>
+    </view>
+  </view>
+  <view class="member">
+    <view class="pic">
+      <image src='../../img/si.jpg'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>姓名：斯毅\n年龄：19\n简介：游戏打得很好，后来决心要学习，正努力学习python\n</text>
+      </view>
+    </view>
+  </view>
+  <view class="member">
+    <view class="pic">
+      <image src='../../img/xu.jpg'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>姓名：徐嘉豪\n年龄：21\n简介：常年游荡于B站，喜欢玩dota,篮球打得不错\n</text>
+      </view>
+    </view>
+  </view>
+  <view class="member">
+    <view class="pic">
+      <image src='../../img/yangtao.jpg'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>姓名：杨韬\n年龄：21\n简介：我们寝室唯一一位不是四川籍的兄弟，来自贵州，比四川人还能吃辣，曾成功带领吴杰走上打英雄联盟的道路\n</text>
+      </view>
+    </view>
+  </view>
+  <view class="member">
+    <view class="pic">
+      <image src='../../img/wujie.jpg'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>姓名：吴杰\n年龄：21\n简介：寝室三好学生，为人幽默爱开玩笑，很会模仿和搞笑，不过遇事犹豫不决是他最大的毛病\n</text>
+      </view>
+    </view>
+  </view>
+  <view class="member">
+    <view class="pic">
+      <image src='../../img/wang.jpg'></image>
+    </view>
+    <view class='movie-info'>
+      <view class='base-info'>
+        <text>姓名：王作文\n年龄：20\n简介：打游戏的菜逼，坑人无数，唱歌难听，在外面绝对不会唱歌，不过常在寝室不顾众人反对纵声高唱，是为“寝室一害”\n</text>
+      </view>
+    </view>
+  </view>
+</view>

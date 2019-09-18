@@ -1,0 +1,54 @@
+page{
+  height: 100%;
+}
+.all{
+  background-color: #3a3a3a;
+  position: relative;
+  min-height: 100%;
+}
+.button{
+  position: fixed;
+  bottom: 0px;
+  left:15%;
+}
+.btn{
+  width: 20%;
+  float:right;
+  height: 30px;
+  font-size: 24rpx;
+}
+.find{
+  background-color: #fff;
+  float:left;
+  width:78%;
+  border: 1px solid #000;
+}
+.head{
+  position: relative;
+}
+.head image{
+  margin-top:20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.head text{
+  color: #fff;
+  position: absolute;
+  font-size: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+  text-overflow: ellipsis; 
+}
+.view textarea{
+  color: #fff;
+  margin-left: 35px;
+  height: 100px;
+  display: inline-block;
+  word-wrap:break-word;
+  margin-bottom: 10px;
+}
+.view{
+  border-bottom: 1px solid #888
+}
